@@ -36,7 +36,7 @@ function recalculate() {
     if (modelName === "XYZ") {
         totalCost = duration * 100;
     } else if (modelName === "CPRG") {
-        totalCost = duration * 213
+        totalCost = duration * 213;
     }
     costLabel.innerHTML = totalCost.toFixed(2);
 }
@@ -66,7 +66,7 @@ function changeModel() {
         modelText.innerHTML = "Model CPRG";
     } else if (modelName === "CPRG") {
         modelName = "XYZ";
-        modelText.innerHTML = "Model XYZ"
+        modelText.innerHTML = "Model XYZ";
     }
     recalculate();
 }
