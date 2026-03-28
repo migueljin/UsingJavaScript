@@ -71,7 +71,7 @@ function changeModel() {
     recalculate();
 }
 if (switchModel) {
-    switchModel.addEventListener("click", changeModel)
+    switchModel.addEventListener("click", changeModel);
 }
 
 
